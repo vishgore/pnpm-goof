@@ -33,8 +33,8 @@ dependencies:
     specifier: 1.0.2
     version: 1.0.2
   errorhandler:
-    specifier: 1.2.0
-    version: 1.2.0
+    specifier: 1.5.1
+    version: 1.5.1
   express:
     specifier: 4.12.4
     version: 4.12.4
@@ -64,20 +64,20 @@ devDependencies:
 
 packages:
 
-  /accepts@1.1.4:
-    resolution: {integrity: sha512-8EKM6XlFgqSpDcxkT9yxCT8nDSWEVBD0UjgUWMCWh5kH9VU+ar2MhmDDYGxohXujPU8PPz88ukpkvfXFVWygHw==}
-    engines: {node: '>= 0.8'}
-    dependencies:
-      mime-types: 2.0.14
-      negotiator: 0.4.9
-    dev: false
-
   /accepts@1.2.13:
     resolution: {integrity: sha512-R190A3EzrS4huFOVZajhXCYZt5p5yrkaQOB4nsWzfth0cYaDcSN5J86l58FJ1dt7igp37fB/QhnuFkGAJmr+eg==}
     engines: {node: '>= 0.6'}
     dependencies:
       mime-types: 2.1.35
       negotiator: 0.5.3
+    dev: false
+
+  /accepts@1.3.8:
+    resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-types: 2.1.35
+      negotiator: 0.6.3
     dev: false
 
   /ansi-regex@2.1.1:
@@ -414,16 +414,20 @@ packages:
     deprecated: Critical security bugs fixed in 2.5.5
     dev: false
 
-  /errorhandler@1.2.0:
-    resolution: {integrity: sha512-tPJiDs1xv36eHxaCD0u77HtRAQ8yq2PYtpSkHoRubrrMyULbC2j2TaHJt7+OcY0RR9sTsr8Bmd3cxhk4l0iSJw==}
+  /errorhandler@1.5.1:
+    resolution: {integrity: sha512-rcOwbfvP1WTViVoUjcfZicVzjhjTuhSMntHh6mW3IrEiyE6mJyXvsToJUJGlGlw/2xU9P5whlWNGlIDVeCiT4A==}
     engines: {node: '>= 0.8'}
     dependencies:
-      accepts: 1.1.4
-      escape-html: 1.0.1
+      accepts: 1.3.8
+      escape-html: 1.0.3
     dev: false
 
   /escape-html@1.0.1:
     resolution: {integrity: sha512-z6kAnok8fqVTra7Yu77dZF2Y6ETJlxH58wN38wNyuNQLm8xXdKnfNrlSmfXsTePWP03rRVUKHubtUwanwUi7+g==}
+    dev: false
+
+  /escape-html@1.0.3:
+    resolution: {integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==}
     dev: false
 
   /escape-string-regexp@1.0.5:
@@ -646,13 +650,13 @@ packages:
     resolution: {integrity: sha512-lRLiIR9fSNpnP6TC4v8+4OU7oStC01esuNowdQ34L+Gk8e5Puoc88IqJ+XAY/B3Mn2ZKis8l8HX90oU8ivzUHg==}
     dev: false
 
-  /negotiator@0.4.9:
-    resolution: {integrity: sha512-fvi5GQce2TGDzanaTxNY3bboxjdce18sqwNylY439wkEkiJIyTMhGFMdlPCvDsIPa9IKIfhKwCMWEQ9YpZgb1Q==}
+  /negotiator@0.5.3:
+    resolution: {integrity: sha512-oXmnazqehLNFohqgLxRyUdOQU9/UX0NpCpsnbjWUjM62ZM8oSOXYZpHc68XR130ftPNano0oQXGdREAplZRhaQ==}
     engines: {node: '>= 0.6'}
     dev: false
 
-  /negotiator@0.5.3:
-    resolution: {integrity: sha512-oXmnazqehLNFohqgLxRyUdOQU9/UX0NpCpsnbjWUjM62ZM8oSOXYZpHc68XR130ftPNano0oQXGdREAplZRhaQ==}
+  /negotiator@0.6.3:
+    resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
     dev: false
 
