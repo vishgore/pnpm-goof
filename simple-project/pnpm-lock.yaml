@@ -54,8 +54,8 @@ dependencies:
     specifier: 1.4.0
     version: 1.4.0
   qs:
-    specifier: 0.0.6
-    version: 0.0.6
+    specifier: 0.6.6
+    version: 0.6.6
 
 devDependencies:
   lodash:
@@ -706,8 +706,8 @@ packages:
       ipaddr.js: 1.0.5
     dev: false
 
-  /qs@0.0.6:
-    resolution: {integrity: sha512-1i8kQcg7L3IYwt9uLfTfAGucLE+wrp7hB+xEGbM0yFp0tbsykoXmSyi+AWn0qdglKMdPzIrzS6w5Ack0ZvkfqQ==}
+  /qs@0.6.6:
+    resolution: {integrity: sha512-kN+yNdAf29Jgp+AYHUmC7X4QdJPR8czuMWLNLc0aRxkQ7tB3vJQEONKKT9ou/rW7EbqVec11srC9q9BiVbcnHA==}
     dev: false
 
   /qs@2.2.4:
