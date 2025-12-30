@@ -2,8 +2,8 @@
     "name": "@test/common-module",
     "version": "1.0.0",
     "dependencies": {
-        "body-parser": "1.20.0",
+        "body-parser": "1.20.4",
         "node-uuid": "1.4.0",
-        "qs": "0.0.6"
+        "qs": "6.14.1"
     }
 }
